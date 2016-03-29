@@ -20,11 +20,6 @@ openFFS Backend uses the following technologies:
 * [Apidoc] - Inline Documentation for RESTful web APIs
 * [MySQL] - The world's most popular open source database
 
-
-And of course openFFS itself is open source with a [public repository][dill]
- on GitHub.
-
-
 License
 ----
 
