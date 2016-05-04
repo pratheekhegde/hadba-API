@@ -72,24 +72,48 @@ $app->get('/session-class', function (Request $request, Response $response) {
  * @apiVersion 4.0.0
  * @apiName GetTimetable
  * @apiGroup Student
- * @apiDescription This is API returns the timetabe.
+ * @apiDescription This is API returns the timetable of a class.
  * The number of items depends on the number of subject a class has.
+ * First item is the requested `class_code`. Second is the `class_name` then follows the timetable.
  *
  * @apiParam {String} class_code unique class_code.
  *
- * @apiSuccess {String} Data1 The value is of the format `employee_code-subject_code`.
+ * @apiSuccess {String} class_code Code of the class of which the timetable was requested.
+ * @apiSuccess {String} class_name Name of the class.
+ * @apiSuccess {object[]} timetable List of subjects.
+ * @apiSuccess {String} timetable.emp_code  Employee code of the faculty.
+ * @apiSuccess {String} timetable.emp_name  Name of the faculty.
+ * @apiSuccess {String} timetable.sub_code  Code of the Subject.
+ * @apiSuccess {String} timetable.sub_name  Name of the Subject.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
  *     {
- *       "Data1": "E0006-CS51",
- *       "Data2": "E0064-CS54",
- *       "Data3": "E0008-CS55",
- *       "Data4": "E0067-CS56",
- *       "Datax": "Exxx-xxxx"
- *     }
+ *      "class_code": "Class2B",
+ *      "class_name": "2nd Year CSE B Section",
+ *      "timetable": [
+ *          {
+ *            "emp_code": "E0046",
+ *            "emp_name": "Bhagyalaxmi Navada",
+ *            "sub_code": "MAT41",
+ *            "sub_name": "Engineering Mathematics 4"
+ *          },
+ *          {
+ *            "emp_code": "E0287",
+ *            "emp_name": "Ramyashree",
+ *            "sub_code": "CS42",
+ *            "sub_name": "Graph Theory & Combinators"
+ *          },
+ *          {
+ *            "emp_code": "E0148",
+ *            "emp_name": "Praveen M Naik",
+ *            "sub_code": "CS43",
+ *            "sub_name": "Design And Analysis of Algorithms"
+ *          }
+ *      ]
+ *    }
  *
- * @apiError TimetableNotFound The class_code of the Class was not found.
+ * @apiError TimetableNotFound The class_code of the Class was not found or the timetable is not in the Database.
  *
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
@@ -97,4 +121,60 @@ $app->get('/session-class', function (Request $request, Response $response) {
  *       "error": "TimetableNotFound"
  *     }
  */
+ $app->get('/timetable/{class_code}', function (Request $request, Response $response, $args) {
+   //Class code is a parameter
+   $class_code = $args['class_code'];
+
+   $db = connect_db();
+   
+   //Get Class Name from class code
+   $result = $db->query("SELECT `class_name` FROM `table_class` WHERE `class_code`= '".$class_code."'");
+   $row = $result->fetch_array(MYSQLI_ASSOC);
+   if($row['class_name']){
+    $class_name = $row['class_name'];
+    }else{
+      $class_name = "Class code not defined";
+    }
+
+   //Get Timetable Mappings
+   $result = $db->query("SELECT * FROM `table_data` WHERE `ID`= '".$class_code."'");
+   $row =$result->fetch_array(MYSQLI_ASSOC);
+
+   if($row){
+     //Remove empty values (at the end there are empty key value pairs)
+     $row = array_filter($row);
+
+     //Remove first element because it is ID, we don't need it
+     array_shift($row);
+
+     foreach ($row as $key => $value) {
+       //seperate class code and fac code
+       $map=explode("-",$value);
+
+       //Get Employee/Faculy Name
+       $result = $db->query("SELECT * FROM `table_faculty_info` WHERE `empcode`= '".$map[0]."'");
+       $row =$result->fetch_array(MYSQLI_ASSOC);
+
+       //Get Subject Name
+       $result = $db->query("SELECT * FROM `table_subjects` WHERE `subcode`= '".$map[1]."'");
+       $row1 =$result->fetch_array(MYSQLI_ASSOC);
+
+       //Prepare the array of objects
+       $mapping[] = array("emp_code" => $map[0],
+                          "emp_name" => $row['name'],
+                          "sub_code" => $map[1],
+                          "sub_name" => $row1['subname']
+                        );
+     }
+     $data = array('class_code' => $class_code,
+                    'class_name' =>$class_name,
+                    'timetable' => $mapping);
+     $this->logger->addNotice('Timetable Requested Class : '.$class_code.' Succes');
+     return $response->withJson($data, 200, JSON_PRETTY_PRINT);
+   }else{
+     $data = array('error' => 'TimetableNotFound');
+     $this->logger->addError('Timetable Requested Class : '.$class_code.' Failed');
+     return $response->withJson($data, 404, JSON_PRETTY_PRINT);
+   }
+ });
 ?>
