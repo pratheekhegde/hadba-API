@@ -11,7 +11,7 @@ $app = new \Slim\App(["settings" => $config]);
 $container = $app->getContainer();
 $container['logger'] = function($c) {
     $logger = new \Monolog\Logger('openFFS REST');
-    $file_handler = new \Monolog\Handler\StreamHandler("logs/app.log");
+    $file_handler = new \Monolog\Handler\StreamHandler('./logs/'.date('Y-m-d').'.log');
     $logger->pushHandler($file_handler);
     return $logger;
 };

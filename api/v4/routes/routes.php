@@ -27,9 +27,8 @@ $app->get('/session-status', function (Request $request, Response $response) {
   $result = $db->query('SELECT `Data1` FROM `table_data` WHERE `ID`= "Startup"');
   $row =$result->fetch_array(MYSQLI_ASSOC);
   $data = array('status' => $row['Data1']);
-  return $response->withJson($data, 200);
-
-  $this->logger->addInfo('Feedback Session Status : '.$status['Data1']);
+  $this->logger->addNotice('Feedback Session Status : '.$row['Data1']);
+  return $response->withJson($data, 200, JSON_PRETTY_PRINT);
 });
 
 /**
@@ -60,12 +59,11 @@ $app->get('/session-class', function (Request $request, Response $response) {
   $row =$result->fetch_array(MYSQLI_ASSOC);
   if($row['Data1'] == 0){
     $data = array('error' => 'session is not running');
-    return $response->withJson($data, 404);
+    return $response->withJson($data, 404, JSON_PRETTY_PRINT);
   }else if($row['Data1'] == 1){
     $data = array('class_code' => $row['Data2']);
-    return $response->withJson($data, 200);
-
-    $this->logger->addInfo('Feedback Session Class : '.$status['Data2']);
+    $this->logger->addNotice('Feedback Session Class : '.$row['Data2']);
+    return $response->withJson($data, 200, JSON_PRETTY_PRINT);
   }
 });
 
@@ -91,7 +89,7 @@ $app->get('/session-class', function (Request $request, Response $response) {
  *       "Datax": "Exxx-xxxx"
  *     }
  *
- * @apiError TimetableNotFound The class_id of the Class was not found.
+ * @apiError TimetableNotFound The class_code of the Class was not found.
  *
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
