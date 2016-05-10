@@ -27,7 +27,7 @@ $app->get('/session-status', function (Request $request, Response $response) {
   $result = $db->query('SELECT `Data1` FROM `table_data` WHERE `ID`= "Startup"');
   $row =$result->fetch_array(MYSQLI_ASSOC);
   $data = array('status' => $row['Data1']);
-  $this->logger->addNotice('Feedback Session Status : '.$row['Data1']);
+  //$this->logger->addNotice('Feedback Session Status : '.$row['Data1']);
   return $response->withJson($data, 200, JSON_PRETTY_PRINT);
 });
 
@@ -62,7 +62,7 @@ $app->get('/session-class', function (Request $request, Response $response) {
     return $response->withJson($data, 404, JSON_PRETTY_PRINT);
   }else if($row['Data1'] == 1){
     $data = array('class_code' => $row['Data2']);
-    $this->logger->addNotice('Feedback Session Class : '.$row['Data2']);
+    //$this->logger->addNotice('Feedback Session Class : '.$row['Data2']);
     return $response->withJson($data, 200, JSON_PRETTY_PRINT);
   }
 });
@@ -126,7 +126,7 @@ $app->get('/session-class', function (Request $request, Response $response) {
    $class_code = $args['class_code'];
 
    $db = connect_db();
-   
+
    //Get Class Name from class code
    $result = $db->query("SELECT `class_name` FROM `table_class` WHERE `class_code`= '".$class_code."'");
    $row = $result->fetch_array(MYSQLI_ASSOC);
@@ -169,12 +169,90 @@ $app->get('/session-class', function (Request $request, Response $response) {
      $data = array('class_code' => $class_code,
                     'class_name' =>$class_name,
                     'timetable' => $mapping);
-     $this->logger->addNotice('Timetable Requested Class : '.$class_code.' Succes');
+     //$this->logger->addNotice('Timetable Requested Class : '.$class_code.' Succes');
      return $response->withJson($data, 200, JSON_PRETTY_PRINT);
    }else{
      $data = array('error' => 'TimetableNotFound');
      $this->logger->addError('Timetable Requested Class : '.$class_code.' Failed');
      return $response->withJson($data, 404, JSON_PRETTY_PRINT);
    }
+ });
+
+ /**
+  * @api {post} /feedback/ Save Feedback of a student
+  * @apiVersion 4.0.0
+  * @apiName PostFeedback
+  * @apiGroup Student
+  * @apiDescription This is API saves the feedback of the student.
+  * The payload will contain the marks of the questions.
+  * It will also have the `emp_code`,`class_code`, `id` will be generated before saving,
+  * `timestamp` will be inserted by the database.
+  *
+  * @apiParam {String} emp_code Employee code of the faculty
+  * @apiParam {String} class_code unique class_code.
+  * @apiParam {object} feedback Marks for each question.
+  * @apiParamExample {json} Request-Example:
+  *     {
+  *       "emp_code": "E0299",
+  *       "class_code": "Class1A",
+  *       "feedback": {
+  *         "Q1": 2,
+  *         "Q2": 3,
+  *         "Q3": 1,
+  *         "Q4": 2
+  *        }
+  *     }
+  *
+  * @apiSuccess (201) {String} status Status code 201.
+  * @apiSuccess (201) {String} message Short description.
+  * @apiSuccess (201) {String} client_id  Unique fignerprint for each feedback.
+  *
+  * @apiSuccessExample Success-Response:
+  *     HTTP/1.1 201 OK
+  *     {
+  *       "status": "201",
+  *       "message": "feedback was saved",
+  *       "client_id": "d90d9be3160703b58253dcda043bc0e7"
+  *     }
+  *
+  * @apiError FeedbackNotSaved The feedback was already submitted once .
+  *
+  * @apiErrorExample {json} Error-Response:
+  *     HTTP/1.1 200 OK
+  *     {
+  *       "status": "400",
+  *       "messaage": "feedback was not saved",
+  *       "description": "Duplicate entry 'd90d9be3160703b58253dcda043bc0e7' for key 'PRIMARY'",
+  *       "client_id": "d90d9be3160703b58253dcda043bc0e7"
+  *     }
+  */
+ $app->post('/feedback', function (Request $request, Response $response) {
+    $parsedBody = $request->getParsedBody();
+
+    //prepare the payload
+    $ipAddress = $request->getAttribute('ip_address');
+    $emp_code = strtolower($parsedBody['emp_code']);
+    $class_code = $parsedBody['class_code'];
+    $feedback = json_encode($parsedBody['feedback']);
+
+    //unique id for each feedback record MD5( ip + emp_code + class_code)
+    $id = md5($ipAddress.$emp_code.$class_code);
+
+    $query = "INSERT INTO table_feedback SET id='$id', emp_code='$emp_code', class_code='$class_code', feedback='$feedback'";
+    $db = connect_db();
+    $result = $db->query($query);
+    if($result){
+      $data = array('status' => '201',
+                    'messaage' => 'feedback was saved',
+                    'client_id' => $id );
+      return $response->withJson($data, 201, JSON_PRETTY_PRINT);
+    }else{
+      $data = array('status' => '400',
+                    'messaage' => 'feedback was not saved',
+                    'description' => $db->error,
+                    'client_id' => $id );
+      $this->logger->addError('Save Feedback Failed : '.$class_code.' - '.$emp_code.', Reason => '.$db->error.'');
+     return $response->withJson($data, 200, JSON_PRETTY_PRINT);
+    }
  });
 ?>
