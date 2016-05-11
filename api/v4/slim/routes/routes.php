@@ -74,7 +74,8 @@ $app->get('/session-class', function (Request $request, Response $response) {
  * @apiGroup Student
  * @apiDescription This is API returns the timetable of a class.
  * The number of items depends on the number of subject a class has.
- * First item is the requested `class_code`. Second is the `class_name` then follows the timetable.
+ * First item is the requested `class_code`. Second is the `class_name` then follows the timetable
+ * and the feedback submission status of each subject.
  *
  * @apiParam {String} class_code unique class_code.
  *
@@ -85,6 +86,8 @@ $app->get('/session-class', function (Request $request, Response $response) {
  * @apiSuccess {String} timetable.emp_name  Name of the faculty.
  * @apiSuccess {String} timetable.sub_code  Code of the Subject.
  * @apiSuccess {String} timetable.sub_name  Name of the Subject.
+ * @apiSuccess {String} timetable.client_id  Unique fingerprint of the student who is giving feedback
+ * @apiSuccess {Boolean} timetable.feedback_given  Feedback submission status of the subject.
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
@@ -96,19 +99,25 @@ $app->get('/session-class', function (Request $request, Response $response) {
  *            "emp_code": "E0046",
  *            "emp_name": "Bhagyalaxmi Navada",
  *            "sub_code": "MAT41",
- *            "sub_name": "Engineering Mathematics 4"
+ *            "sub_name": "Engineering Mathematics 4",
+ *            "client_id": "a511eeed49dfca1b8a40411b820b41be",
+ *            "feedback_given": true
  *          },
  *          {
  *            "emp_code": "E0287",
  *            "emp_name": "Ramyashree",
  *            "sub_code": "CS42",
- *            "sub_name": "Graph Theory & Combinators"
+ *            "sub_name": "Graph Theory & Combinators",
+*             "client_id": "d90d9be3160703b58253dcda043bc0e7",
+ *            "feedback_given": true
  *          },
  *          {
  *            "emp_code": "E0148",
  *            "emp_name": "Praveen M Naik",
  *            "sub_code": "CS43",
- *            "sub_name": "Design And Analysis of Algorithms"
+ *            "sub_name": "Design And Analysis of Algorithms",
+ *            "client_id": "ef3c6af8f074d137bd3fbb6ae2cece70",
+ *            "feedback_given": false
  *          }
  *      ]
  *    }
@@ -124,6 +133,7 @@ $app->get('/session-class', function (Request $request, Response $response) {
  $app->get('/timetable/{class_code}', function (Request $request, Response $response, $args) {
    //Class code is a parameter
    $class_code = $args['class_code'];
+   $ipAddress = $request->getAttribute('ip_address');
 
    $db = connect_db();
 
@@ -151,6 +161,9 @@ $app->get('/session-class', function (Request $request, Response $response) {
        //seperate class code and fac code
        $map=explode("-",$value);
 
+       //unique id for each feedback record MD5( ip + emp_code + class_code)
+       $id = md5($ipAddress.strtolower($map[0]).$class_code);
+
        //Get Employee/Faculy Name
        $result = $db->query("SELECT * FROM `table_faculty_info` WHERE `empcode`= '".$map[0]."'");
        $row =$result->fetch_array(MYSQLI_ASSOC);
@@ -159,11 +172,21 @@ $app->get('/session-class', function (Request $request, Response $response) {
        $result = $db->query("SELECT * FROM `table_subjects` WHERE `subcode`= '".$map[1]."'");
        $row1 =$result->fetch_array(MYSQLI_ASSOC);
 
+       //Get Feedback Submission status for each faculty
+       $result = $db->query("SELECT * FROM `table_feedback` WHERE `class_code`= '".$class_code."' AND `emp_code`= '".strtolower($map[0])."' AND `id`='".$id."'");
+       if($result->num_rows == 0){
+         $feedback_submission_status = false;
+       }else{
+         $feedback_submission_status = true;
+       }
+
        //Prepare the array of objects
        $mapping[] = array("emp_code" => $map[0],
                           "emp_name" => $row['name'],
                           "sub_code" => $map[1],
-                          "sub_name" => $row1['subname']
+                          "sub_name" => $row1['subname'],
+                          'client_id' => $id,
+                          "feedback_given" => $feedback_submission_status
                         );
      }
      $data = array('class_code' => $class_code,
@@ -256,15 +279,4 @@ $app->get('/session-class', function (Request $request, Response $response) {
     }
  });
 
- $app->get('/feedback-status/{class_code}/{emp_code}', function (Request $request, Response $response, $args) {
-   //parameters
-   $class_code = $args['class_code'];
-   $emp_code = $args['emp_code'];
-
-   $data = array('status' => '200',
-                 'messaage' => 'feedback was not saved',
-                  'class_code' => $class_code,
-                  'emp_code' => $emp_code);
-   return $response->withJson($data, 200, JSON_PRETTY_PRINT);
- });
 ?>
