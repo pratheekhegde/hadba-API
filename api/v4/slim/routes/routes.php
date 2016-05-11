@@ -255,4 +255,16 @@ $app->get('/session-class', function (Request $request, Response $response) {
      return $response->withJson($data, 200, JSON_PRETTY_PRINT);
     }
  });
+
+ $app->get('/feedback-status/{class_code}/{emp_code}', function (Request $request, Response $response, $args) {
+   //parameters
+   $class_code = $args['class_code'];
+   $emp_code = $args['emp_code'];
+
+   $data = array('status' => '200',
+                 'messaage' => 'feedback was not saved',
+                  'class_code' => $class_code,
+                  'emp_code' => $emp_code);
+   return $response->withJson($data, 200, JSON_PRETTY_PRINT);
+ });
 ?>
