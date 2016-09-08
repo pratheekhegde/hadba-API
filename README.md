@@ -59,7 +59,7 @@ That's it, if everything went well you should be able to hit the APIs from outsi
 
 ## Documentation
 
-openFFS Bckend's documentation, included in this repo in the docs directory, is built with [Apidoc] and publicly hosted on GitHub Pages at <http://github.io/pratheekhegde/openFFS/doc>. The docs may also be run locally.
+openFFS Bckend's documentation, included in this repo in the docs directory, is built with [Apidoc] and publicly hosted on GitHub Pages at <http://pratheekhegde.github.io/openFFS-backend/doc/>. The docs may also be run locally.
 
 ### Running documentation locally
 
