@@ -10,7 +10,6 @@ This Repo has the REST API implementations.
 - [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
-- [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
 
 
