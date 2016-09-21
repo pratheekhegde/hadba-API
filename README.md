@@ -1,5 +1,5 @@
-# openFFS (Backend)
-This Repo has the REST API implementations.
+# hadba - API (Formerly openFFS-backend)
+This Repo has the REST APIs for the hadba WebApp
 
 
 ## Table of contents
@@ -16,7 +16,7 @@ This Repo has the REST API implementations.
 
 ## Main features
 
-openFFS is a WebApp for collecting semester wise feedbacks from the students, it can do the following things in ease.
+hadba is a WebApp for collecting semester wise feedbacks from the students, it can do the following things in ease.
   - Add Faculty and subject information
   - Feed the timetable of each class
   - Conduct feedback of sessions of each class
@@ -26,7 +26,7 @@ openFFS is a WebApp for collecting semester wise feedbacks from the students, it
 
 ## Technology stack
 
-openFFS Backend uses the following technologies:
+hadba - API uses the following technologies:
 
 * [Composer] - Dependency Manager for PHP
 * [Slim Framework] - PHP micro framework for web applications and APIs.
@@ -49,7 +49,7 @@ openFFS Backend uses the following technologies:
 
 ## Quick start
 
-- Clone the repo: `git clone https://github.com/pratheekhegde/openFFS-backend.git`
+- Clone the repo: `git clone https://github.com/pratheekhegde/hadba-API.git`
 - Install with [composer](https://getcomposer.org/): `php composer.phar`
 - Get the server up and running.
 
@@ -59,7 +59,7 @@ That's it, if everything went well you should be able to hit the APIs from outsi
 
 ## Documentation
 
-openFFS Bckend's documentation, included in this repo in the docs directory, is built with [Apidoc] and publicly hosted on GitHub Pages at <http://pratheekhegde.github.io/openFFS-backend/doc/>. The docs may also be run locally.
+hadba - API's documentation, included in this repo in the docs directory, is built with [Apidoc] and publicly hosted on GitHub Pages at <http://pratheekhegde.github.io/hadba-API/doc/>. The docs may also be run locally.
 
 ### Running documentation locally
 
@@ -83,12 +83,12 @@ If you are interested contributing to this project please contact me. :v:
 
 ## Copyright and license
 
-This code is under [MIT license](https://github.com/pratheekhegde/openFFS-backend/blob/master/LICENSE.md).
+This code is under [MIT license](https://github.com/pratheekhegde/hadba-API/blob/master/LICENSE.md).
 
 <!-- Links -->
 
-[openFFS]: <https://github.com/pratheekhegde/openFFS-backend>
-[git-repo-url]: <https://github.com/pratheekhegde/openFFS-backend.git>
+[hadba-API]: <https://github.com/pratheekhegde/hadba-API>
+[git-repo-url]: <https://github.com/pratheekhegde/hadba-API.git>
 [Slim Framework]: <http://www.slimframework.com/>
 [Monolog]: <https://github.com/Seldaek/monolog>
 [Composer]: <https://getcomposer.org/>
