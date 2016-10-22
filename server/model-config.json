@@ -33,11 +33,15 @@
     "public": false
   },
   "subject": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "hadba-mongo",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "faculty": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "hadba-mongo",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

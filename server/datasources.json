@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "hadba-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/hadba",
+    "database": "hadba",
+    "password": "",
+    "name": "hadba-mongo",
+    "user": "",
+    "connector": "mongodb"
   }
 }
