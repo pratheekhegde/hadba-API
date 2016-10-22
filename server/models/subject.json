@@ -6,6 +6,9 @@
   "options": {
     "validateUpsert": true
   },
+  "hidden": [
+    "departmentId"
+  ],
   "properties": {
     "subName": {
       "type": "string",
@@ -15,13 +18,25 @@
       "type": "string",
       "required": true
     },
-    "subDepartment": {
-      "type": "string",
+    "subSem": {
+      "type": "number",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "department": {
+      "type": "belongsTo",
+      "model": "department",
+      "foreignKey": ""
+    },
+    "faculties": {
+      "type": "hasMany",
+      "model": "faculty",
+      "foreignKey": "subjectId",
+      "through": "SubjectFacultyMapping"
+    }
+  },
   "acls": [],
   "methods": {}
 }

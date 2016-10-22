@@ -9,14 +9,16 @@
     "className": {
       "type": "string",
       "required": true
-    },
-    "classId": {
-      "type": "string",
-      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "timetables": {
+      "type": "hasOne",
+      "model": "timetable",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -10,10 +10,6 @@
     "depName": {
       "type": "string",
       "required": true
-    },
-    "depCode": {
-      "type": "string",
-      "required": true
     }
   },
   "validations": [],
@@ -21,6 +17,11 @@
     "faculties": {
       "type": "hasMany",
       "model": "faculty",
+      "foreignKey": ""
+    },
+    "subjects": {
+      "type": "hasMany",
+      "model": "subject",
       "foreignKey": ""
     }
   },

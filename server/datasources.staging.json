@@ -1,11 +1,11 @@
 {
-  "hadba-mongo": {
+  "hadbaMongo": {
     "host": "ds061246.mlab.com",
     "port": 61246,
     "url": "mongodb://hadba-stage:hadba-stage@ds061246.mlab.com:61246/hadba-stage",
     "database": "hadba-stage",
     "password": "hadba-stage",
-    "name": "hadba-mongo",
+    "name": "hadbaMongo",
     "user": "hadba-stage",
     "connector": "mongodb"
   }

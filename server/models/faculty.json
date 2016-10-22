@@ -6,6 +6,10 @@
   "options": {
     "validateUpsert": true
   },
+  "hidden": [
+    "departmentId",
+    "productoId"
+  ],
   "properties": {
     "facName": {
       "type": "string",
@@ -21,7 +25,13 @@
     "department": {
       "type": "belongsTo",
       "model": "department",
-      "foreignKey": ""
+      "foreignKey": "departmentId"
+    },
+    "subjects": {
+      "type": "hasMany",
+      "model": "subject",
+      "foreignKey": "facultyId",
+      "through": "SubjectFacultyMapping"
     }
   },
   "acls": [],

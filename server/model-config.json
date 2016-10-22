@@ -33,23 +33,31 @@
     "public": false
   },
   "subject": {
-    "dataSource": "hadba-mongo",
+    "dataSource": "hadbaMongo",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "faculty": {
-    "dataSource": "hadba-mongo",
+    "dataSource": "hadbaMongo",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "class": {
-    "dataSource": "hadba-mongo",
+    "dataSource": "hadbaMongo",
     "public": true
   },
   "department": {
-    "dataSource": "hadba-mongo",
+    "dataSource": "hadbaMongo",
     "public": true
+  },
+  "timetable": {
+    "dataSource": "hadbaMongo",
+    "public": true
+  },
+  "SubjectFacultyMapping": {
+    "dataSource": "transient",
+    "public": false
   }
 }

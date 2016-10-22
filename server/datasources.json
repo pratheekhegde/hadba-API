@@ -1,15 +1,19 @@
 {
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  },
   "db": {
     "name": "db",
     "connector": "memory"
   },
-  "hadba-mongo": {
+  "hadbaMongo": {
     "host": "localhost",
     "port": 27017,
     "url": "mongodb://localhost:27017/hadba",
     "database": "hadba",
     "password": "",
-    "name": "hadba-mongo",
+    "name": "hadbaMongo",
     "user": "",
     "connector": "mongodb"
   }
