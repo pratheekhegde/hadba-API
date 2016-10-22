@@ -1,0 +1,24 @@
+{
+  "name": "timetable",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "timetable": {
+      "type": "embedsMany",
+      "model": "SubjectFacultyMapping",
+      "property": "timetables"
+    },
+    "class": {
+      "type": "belongsTo",
+      "model": "class",
+      "foreignKey": "classId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

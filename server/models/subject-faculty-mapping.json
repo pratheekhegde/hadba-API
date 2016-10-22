@@ -1,0 +1,27 @@
+{
+  "name": "SubjectFacultyMapping",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "hidden": [
+    "id"
+  ],
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "faculty": {
+      "type": "belongsTo",
+      "model": "faculty",
+      "foreignKey": "facultyId"
+    },
+    "subject": {
+      "type": "belongsTo",
+      "model": "subject",
+      "foreignKey": "subjectId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
