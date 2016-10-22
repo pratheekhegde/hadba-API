@@ -1,0 +1,27 @@
+{
+  "name": "faculty",
+  "plural": "faculties",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "facName": {
+      "type": "string",
+      "required": true
+    },
+    "facEmpCode": {
+      "type": "string",
+      "required": true
+    },
+    "facDep": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
