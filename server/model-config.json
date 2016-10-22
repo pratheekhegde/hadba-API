@@ -43,5 +43,13 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "class": {
+    "dataSource": "hadba-mongo",
+    "public": true
+  },
+  "department": {
+    "dataSource": "hadba-mongo",
+    "public": true
   }
 }
