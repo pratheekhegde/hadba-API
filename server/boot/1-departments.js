@@ -9,7 +9,7 @@ module.exports = function(app) {
 
     var departments = require('./data/departments.json');
 
-    //Creating Facility Data
+    //Creating Department Data
     Department.create(departments);
     console.info('[Boot] - Loaded Department data to DB');
   });

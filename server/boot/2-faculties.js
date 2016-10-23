@@ -9,7 +9,7 @@ module.exports = function(app) {
 
     var faculties = require('./data/faculties.json');
 
-    //Creating Facility Data
+    //Creating Faculty Data
     Faculty.create(faculties);
     console.info('[Boot] - Loaded Faculties data to DB');
   });
