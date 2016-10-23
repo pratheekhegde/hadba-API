@@ -1,4 +1,12 @@
 {
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  },
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
   "hadbaMongo": {
     "host": "ds061246.mlab.com",
     "port": 61246,
