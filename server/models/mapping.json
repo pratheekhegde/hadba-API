@@ -1,5 +1,5 @@
 {
-  "name": "timetable",
+  "name": "mapping",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -8,19 +8,20 @@
   "properties": {},
   "validations": [],
   "relations": {
-    "mapping": {
-      "type": "embedsMany",
-      "model": "SubjectFacultyMapping",
-      "property": "timetables",
-      "options": {
-        "validate": true,
-        "forceId": false
-      }
+    "faculty": {
+      "type": "belongsTo",
+      "model": "faculty",
+      "foreignKey": ""
+    },
+    "subject": {
+      "type": "belongsTo",
+      "model": "subject",
+      "foreignKey": ""
     },
     "class": {
       "type": "belongsTo",
       "model": "class",
-      "foreignKey": "classId"
+      "foreignKey": ""
     }
   },
   "acls": [],

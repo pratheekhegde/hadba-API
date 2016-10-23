@@ -23,11 +23,10 @@
       "model": "department",
       "foreignKey": "departmentId"
     },
-    "subjects": {
+    "mappings": {
       "type": "hasMany",
-      "model": "subject",
-      "foreignKey": "facultyId",
-      "through": "SubjectFacultyMapping"
+      "model": "mapping",
+      "foreignKey": ""
     }
   },
   "acls": [],

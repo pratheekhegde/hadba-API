@@ -17,6 +17,11 @@
       "type": "hasOne",
       "model": "timetable",
       "foreignKey": ""
+    },
+    "mappings": {
+      "type": "hasMany",
+      "model": "mapping",
+      "foreignKey": ""
     }
   },
   "acls": [],

@@ -52,12 +52,12 @@
     "dataSource": "hadbaMongo",
     "public": true
   },
-  "timetable": {
+  "meta": {
     "dataSource": "hadbaMongo",
     "public": true
   },
-  "SubjectFacultyMapping": {
-    "dataSource": "transient",
-    "public": false
+  "mapping": {
+    "dataSource": "hadbaMongo",
+    "public": true
   }
 }
