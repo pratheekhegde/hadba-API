@@ -1,0 +1,555 @@
+[
+  {
+    "subCode": "10CS843",
+    "subName": "ARM Based System Design",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS841",
+    "subName": "Adhoc Networks",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS845",
+    "subName": "Clouds, Grids and Clusters",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS835",
+    "subName": "Information and Network Security",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS836",
+    "subName": "Microcontroller-Based Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS846",
+    "subName": "Multi-core Architecture and Programming",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS834",
+    "subName": "Network Management Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS844",
+    "subName": "Services Oriented Architecture",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10IS81",
+    "subName": "Software Architectures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS842",
+    "subName": "Software Testing",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS82",
+    "subName": "System Modeling and Simulation",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS833",
+    "subName": "VLSI Design and Algorithms",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS832",
+    "subName": "Web 2.0 and Rich Internet Applications",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS831",
+    "subName": "Wireless Networks and Mobile Computing",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS71",
+    "subName": "Object-Oriented Modeling & Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS72",
+    "subName": "Embedded Computing Systems",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS73",
+    "subName": "Programming the Web",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS74",
+    "subName": "Advanced Computer Architectures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS751",
+    "subName": "Advanced Database Management Systems",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS752",
+    "subName": "Digital Signal Processing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS753",
+    "subName": "Java and J2EE",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS754",
+    "subName": "Multimedia Computing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS755",
+    "subName": "Data Warehousing and Data Mining",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS756",
+    "subName": "Neural Networks",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS761",
+    "subName": "C# Programming and .Net",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS762",
+    "subName": "Digital Image Processing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS763",
+    "subName": "Game Theory",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS764",
+    "subName": "Artificial Intelligence",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS765",
+    "subName": "Storage Area Networks",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS766",
+    "subName": "Fuzzy Logic",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL77",
+    "subName": "Networks Laboratory",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL78",
+    "subName": "Web Programming Laboratory",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10AL61",
+    "subName": "Management & Entrepreneurship",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS62",
+    "subName": "Unix System Programming",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS63",
+    "subName": "Compiler Design",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS64",
+    "subName": "Computer Networks-II",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS65",
+    "subName": "Computer Graphics & Visualization",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS661",
+    "subName": "Operations Research",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS662",
+    "subName": "Signals & Systems",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS663",
+    "subName": "Data Compression",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS664",
+    "subName": "Pattern Recognition",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS665",
+    "subName": "Stochastic Models & Applications",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS666",
+    "subName": "Programming Languages",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL67",
+    "subName": "COMPUTER GRAPHICS AND VISUALIZATION LABORATORY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL68",
+    "subName": "UNIX SYSTEMS PROGRAMMING AND COMPILER DESIGN LABORATORY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10IS51",
+    "subName": "Software Engineering",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS52",
+    "subName": "Systems Software",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS53",
+    "subName": "Operating Systems",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS54",
+    "subName": "Database Management Systems",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS55",
+    "subName": "Computer Networks-I",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS56",
+    "subName": "Formal Languages & Automata Theory",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL57",
+    "subName": "DATABASE APPLICATIONS LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL58",
+    "subName": "SYSTEM SOFTWARE & OPERATING SYSTEMS LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10IS51",
+    "subName": "Software Engineering",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS52",
+    "subName": "Systems Software",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS53",
+    "subName": "Operating Systems",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS54",
+    "subName": "Database Management Systems",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS55",
+    "subName": "Computer Networks-I",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS56",
+    "subName": "Formal Languages & Automata Theory",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL57",
+    "subName": "DATABASE APPLICATIONS LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL58",
+    "subName": "SYSTEM SOFTWARE & OPERATING SYSTEMS LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "MATDIP401",
+    "subName": "Advanced Mathematics-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10MAT41",
+    "subName": "Engineering Mathematics-IV",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS42",
+    "subName": "Graph Theory & Combinatorics",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS43",
+    "subName": "Design & Analysis of Algorithms",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS44",
+    "subName": "Unix & Shell Programming",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS45",
+    "subName": "Microprocessors",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS46",
+    "subName": "Computer Organization",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL47",
+    "subName": "DESIGN AND ANALYSIS OF ALGORITHMS LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL48",
+    "subName": "MICROPROCESSORS LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "MATDIP301",
+    "subName": "Advanced Mathematics-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10MAT31",
+    "subName": "Engineering Mathematics-III",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS32",
+    "subName": "Electronic Circuits",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS33",
+    "subName": "Logic Design",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS34",
+    "subName": "Discrete Mathematical Structures",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS35",
+    "subName": "Data Structures with C",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CS36",
+    "subName": "Object Oriented Programming with C++",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL37",
+    "subName": "DATA STRUCTURES WITH C/C++ LABORATORY",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  },
+  {
+    "subCode": "10CSL38",
+    "subName": "ELECTRONIC CIRCUITS & LOGIC DESIGN LABORATORY",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c943e1d476bb94875784c"
+  }
+]
