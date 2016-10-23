@@ -8,10 +8,14 @@
   "properties": {},
   "validations": [],
   "relations": {
-    "timetable": {
+    "mapping": {
       "type": "embedsMany",
       "model": "SubjectFacultyMapping",
-      "property": "timetables"
+      "property": "timetables",
+      "options": {
+        "validate": true,
+        "forceId": false
+      }
     },
     "class": {
       "type": "belongsTo",

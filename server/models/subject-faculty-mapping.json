@@ -2,14 +2,9 @@
   "name": "SubjectFacultyMapping",
   "base": "Model",
   "idInjection": false,
-  "options": {
-    "validateUpsert": true
-  },
-  "hidden": [
-    "id"
-  ],
   "properties": {},
   "validations": [],
+  "hidden": ["id"],
   "relations": {
     "faculty": {
       "type": "belongsTo",
