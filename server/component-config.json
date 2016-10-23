@@ -1,5 +1,13 @@
 {
   "loopback-component-explorer": {
-    "mountPath": "/explorer"
+    "mountPath": "/explorer",
+    "apiInfo": {
+      "title": "Hadba WebApp",
+      "description": "REST APIs for hadba.",
+      "termsOfServiceUrl": "http://swagger.io/terms/",
+      "contact": "ptk609@@gmail.com",
+      "license": "Apache 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
   }
 }
