@@ -6,10 +6,6 @@
   "options": {
     "validateUpsert": true
   },
-  "hidden": [
-    "departmentId",
-    "productoId"
-  ],
   "properties": {
     "facName": {
       "type": "string",

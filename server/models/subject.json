@@ -6,9 +6,6 @@
   "options": {
     "validateUpsert": true
   },
-  "hidden": [
-    "departmentId"
-  ],
   "properties": {
     "subName": {
       "type": "string",
@@ -28,7 +25,7 @@
     "department": {
       "type": "belongsTo",
       "model": "department",
-      "foreignKey": ""
+      "foreignKey": "departmentId"
     },
     "faculties": {
       "type": "hasMany",
