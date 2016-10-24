@@ -3,7 +3,7 @@
     "mountPath": "/explorer",
     "uiDirs": "server/api-explorer",
     "apiInfo": {
-      "title": "Hadba WebApp",
+      "title": "Hadba API",
       "description": "The REST APIs implementation for the `hadba` WebApp. This is the `v5` revision, a complete rewrite in **nodejs**. The reason for the rewrite is to make it platform agnostic and an get it **SaaS** ready. You can play with the APIs with this access token `adfjea23kj`, it will give only read access. Collaboration are welcomed.",
       "contact": {
         "name": "Pratheek Hegde",

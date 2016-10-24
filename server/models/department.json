@@ -1,5 +1,6 @@
 {
   "name": "department",
+  "description": "A Department model representing a Department",
   "plural": "departments",
   "base": "PersistedModel",
   "idInjection": true,

@@ -1,5 +1,6 @@
 {
   "name": "class",
+  "description": "A Class model representing a Class",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

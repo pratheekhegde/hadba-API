@@ -1,6 +1,7 @@
 {
   "name": "mapping",
   "base": "PersistedModel",
+  "description": "A Model representing mapping of a Faculty and Subject",
   "idInjection": true,
   "options": {
     "validateUpsert": true

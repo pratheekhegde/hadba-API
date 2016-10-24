@@ -1,6 +1,7 @@
 {
   "name": "faculty",
   "plural": "faculties",
+  "description": "A Faculty model representing a Faculty",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

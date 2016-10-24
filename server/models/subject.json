@@ -1,6 +1,7 @@
 {
   "name": "subject",
   "plural": "subjects",
+  "description": "A Subject model representing a Subject",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

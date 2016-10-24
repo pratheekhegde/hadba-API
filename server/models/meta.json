@@ -1,6 +1,7 @@
 {
   "name": "meta",
   "plural": "metas",
+  "description": "A Meta model representing metadata",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
