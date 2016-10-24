@@ -14,10 +14,16 @@ module.exports = function(app, cb) {
       username: 'ptk',
       email: 'ptk609@gmail.com',
       password: 'ptk',
+    }, {
+      username: 'guest',
+      email: 'guest@guest.com',
+      password: 'guest',
     }], function(err, users) {
       if (err) throw err;
       console.log('* Created users:', users[0].username);
+      console.log('* Created users:', users[1].username);
 
+      // create admin user
       Role.create({
         name: 'admin',
       }, function(err, role) {
@@ -28,6 +34,23 @@ module.exports = function(app, cb) {
         role.principals.create({
           principalType: RoleMapping.USER,
           principalId: users[0].id,
+        }, function(err, principal) {
+          if (err) throw err;
+          console.log('* Created principal:', principal.principalType);
+        });
+      });
+
+      // create guest user
+      Role.create({
+        name: 'guest',
+      }, function(err, role) {
+        if (err) throw err;
+        console.log('* Created role:', role.name);
+
+        // Make ptk an admin
+        role.principals.create({
+          principalType: RoleMapping.USER,
+          principalId: users[1].id,
         }, function(err, principal) {
           if (err) throw err;
           console.log('* Created principal:', principal.principalType);
