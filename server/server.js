@@ -10,7 +10,7 @@ app.start = function() {
   return app.listen(function() {
     app.emit('started');
     var baseUrl = app.get('url').replace(/\/$/, '');
-    console.log('[Boot] - starting hadba API server');
+    console.log('[Boot] - Starting hadba API server');
     console.log('hadba API server listening at: %s', baseUrl);
     if (app.get('loopback-component-explorer')) {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
