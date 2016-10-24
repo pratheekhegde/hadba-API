@@ -1,0 +1,541 @@
+[
+  {
+    "subCode": "10CV81",
+    "subName": "Advanced Concrete Technology",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV845",
+    "subName": "Advanced Design of Steel Structures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV832",
+    "subName": "Advanced Foundation Design",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV831",
+    "subName": "Advanced Pre stressed Concrete Structures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV836",
+    "subName": "Construction Management and Engineering Economics",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV82",
+    "subName": "Design and Drawing of Steel Structures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV834",
+    "subName": "Earthquake Resistant Design of Structures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV847",
+    "subName": "Environmental Impact Assessment",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV841",
+    "subName": "Finite Element Analysis",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV844",
+    "subName": "Geographic Information System",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV835",
+    "subName": "Industrial Waste Water Treatment",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV833",
+    "subName": "Pavement Design",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV85",
+    "subName": "Project Work",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV842",
+    "subName": "Reinforced Earth Structures",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV86",
+    "subName": "Seminar",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV843",
+    "subName": "Urban Transport Planning",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV846",
+    "subName": "Water Resources Engineering",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV71",
+    "subName": "Environmental Engineering II",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV72",
+    "subName": "Design of Steel Structures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV73",
+    "subName": "Estimation and Valuation",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV74",
+    "subName": "Design of Prestressed Concrete Structures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV751",
+    "subName": "Matrix Method of Structural Analysis",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV752",
+    "subName": "Advanced Design of RC structures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV753",
+    "subName": "Design of Masonry Structures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV754",
+    "subName": "Earth and Earth Retaining Structures",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV755",
+    "subName": "Highway Geometric Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV756",
+    "subName": "Open Channel Hydraulics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV757",
+    "subName": "Solid Waste Management",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV761",
+    "subName": "Numerical Methods in Civil Engineering",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV762",
+    "subName": "Rock Mechanics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV763",
+    "subName": "Pavement Materials and Construction",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV764",
+    "subName": "Photogrammetry and Remote Sensing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV765",
+    "subName": "Air Pollution and Control",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV766",
+    "subName": "Design and Drawing of Bridges",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV767",
+    "subName": "Structural Dynamics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL77",
+    "subName": "ENVIRONMENTAL ENGINEERING LABORATORY",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL78",
+    "subName": "CONCRETE AND HIGHWAY MATERIALS LABORATORY",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV61",
+    "subName": "Environmental Engineering-I",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV62",
+    "subName": "Design & Drawing of RC structures",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV63",
+    "subName": "Transportation Engineering-II",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV64",
+    "subName": "Geotechnical Engineering-II",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV65",
+    "subName": "Hydraulic Structures and Irrigation Design-Drawing",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV661",
+    "subName": "Theory of Elasticity",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV662",
+    "subName": "Alternative Building Materials & Technologies",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV663",
+    "subName": "Ground Improvement Techniques",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV664",
+    "subName": "Advanced Surveying",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV665",
+    "subName": "Ground Water Hydrology",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV666",
+    "subName": "Rural Water Supply & Sanitation",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV667",
+    "subName": "Traffic Engineering",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL67",
+    "subName": "GEOTECHNICAL ENGINEERING LABORATORY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL68",
+    "subName": "EXTENSIVE SURVEY VIVA - VOCE",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10AL51",
+    "subName": "Management & Entrepreneurship",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV52",
+    "subName": "Design of RCC Structural Elements",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV53",
+    "subName": "Structural Analysis-II",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV54",
+    "subName": "Geotechnical Engineering-I",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV55",
+    "subName": "Hydrology & Irrigation Engineering",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV56",
+    "subName": "Transportation Engineering-I",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL58",
+    "subName": "Computer Aided Design Lab",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL57",
+    "subName": "Hydraulics and Hydraulic Machinery Lab",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "MATDIP401",
+    "subName": "Advanced Mathematics-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10MAT41",
+    "subName": "Engineering Mathematics-IV",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV42",
+    "subName": "Concrete Technology",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV43",
+    "subName": "Structural Analysis-I",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV44",
+    "subName": "Surveying-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV45",
+    "subName": "Hydraulics & Hydraulic Machines",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV46",
+    "subName": "Building Planning & Drawing",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL47",
+    "subName": "SURVEYING PRACTICE � II LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL48",
+    "subName": "APPLIED ENGINEERING GEOLOGY LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "MATDIP301",
+    "subName": "Advanced Mathematics-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10MAT31",
+    "subName": "Engineering Mathematics-III",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV32",
+    "subName": "Building Materials & Construction Technology",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV33",
+    "subName": "Strength of Materials",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV34",
+    "subName": "Surveying-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV35",
+    "subName": "Fluid Mechanics",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CV36",
+    "subName": "Applied Engineering Geology",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL37",
+    "subName": "BASIC MATERIAL TESTING LAB",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  },
+  {
+    "subCode": "10CVL38",
+    "subName": "SURVEYING PRACTICE � I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94731d476bb94875784d"
+  }
+]

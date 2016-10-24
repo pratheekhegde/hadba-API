@@ -1,0 +1,492 @@
+[
+  {
+    "subCode": "10EC844",
+    "subName": "Adhoc Wireless Networks",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC82",
+    "subName": "Digital Switching Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC831",
+    "subName": "Distributed Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC843",
+    "subName": "GSM",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC834",
+    "subName": "High Performance Computing Networks",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC835",
+    "subName": "Internet Engineering",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC841",
+    "subName": "Multimedia Communication",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC832",
+    "subName": "Network Security",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC845",
+    "subName": "Optical Computing",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC833",
+    "subName": "Optical Networks",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC842",
+    "subName": "Real Time Operating Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC81",
+    "subName": "Wireless Communication",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC71",
+    "subName": "Computer Communication Networks",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC72",
+    "subName": "Optical Fiber Communication",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC73",
+    "subName": "Power Electronics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC74",
+    "subName": "Embedded System Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC751",
+    "subName": "DSP Algorithms & Architecture",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC752",
+    "subName": "Micro & Smart Systems Technology",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC753",
+    "subName": "Artificial Neural Network",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC754",
+    "subName": "CAD for VLSI",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC755",
+    "subName": "Applied Embedded System Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC756",
+    "subName": "Speech Processing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC761",
+    "subName": "Data Structure Using C++",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC762",
+    "subName": "Real Time Systems",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC763",
+    "subName": "Image Processing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC764",
+    "subName": "Radio Frequency Integrated Circuits",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC765",
+    "subName": "Wavelet Transforms",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC766",
+    "subName": "Modeling and Simulation of Data Networks",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL77",
+    "subName": "VLSI LAB",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL78",
+    "subName": "POWER ELECTRONICS LAB",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC61",
+    "subName": "Digital Communication",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC62",
+    "subName": "Microprocessors",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC63",
+    "subName": "Microelectronics Circuits",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC64",
+    "subName": "Antennas & Propagation",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC65",
+    "subName": "Operating Systems",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC661",
+    "subName": "Analog & Mixed Mode VLSI Design",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC662",
+    "subName": "Satellite Communications",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC663",
+    "subName": "Random Processes",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC664",
+    "subName": "Low Power VLSI Design",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC665",
+    "subName": "Programing in C++",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC666",
+    "subName": "Digital System Design Using Verilog",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC667",
+    "subName": "Virtual Instrumentation",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL67",
+    "subName": "ADVANCED COMMUNICATION LAB",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL68",
+    "subName": "MICROPROCESSOR LAB",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10AL51",
+    "subName": "Management & Entrepreneurship",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC52",
+    "subName": "Digital Signal Processing",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC53",
+    "subName": "Analog Communication",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC54",
+    "subName": "Microwaves & Radar",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC55",
+    "subName": "Information Theory & Coding",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC56",
+    "subName": "Fundamentals of CMOS VLSI",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL57",
+    "subName": "DIGITAL SIGNAL PROCESSING LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL58",
+    "subName": "ANALOG COMMUNICATION LAB + LIC LAB",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "MATDIP401",
+    "subName": "Advanced Mathematics-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10MAT41",
+    "subName": "Engineering Mathematics-IV",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES42",
+    "subName": "Microcontrollers",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES43",
+    "subName": "Control Systems",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC44",
+    "subName": "Signals & Systems",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC45",
+    "subName": "Fundamentals of HDL",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10EC46",
+    "subName": "Linear ICs & Applications",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ESL47",
+    "subName": "MICROCONTROLLERS LAB",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ECL48",
+    "subName": "HDL LAB",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "MATDIP301",
+    "subName": "Advanced Mathematics-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10MAT31",
+    "subName": "Engineering Mathematics-III",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES32",
+    "subName": "Analog Electronic Circuits",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES33",
+    "subName": "Logic Design",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES34",
+    "subName": "Network Analysis",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10IT35",
+    "subName": "Electronic Instrumentation",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ES36",
+    "subName": "Field Theory",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ESL37",
+    "subName": "ANALOG ELECTRONICS LAB",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  },
+  {
+    "subCode": "10ESL38",
+    "subName": "LOGIC DESIGN LAB",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c94841d476bb94875784e"
+  }
+]

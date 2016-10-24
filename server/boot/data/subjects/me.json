@@ -1,0 +1,632 @@
+[
+  {
+    "subCode": "10ME846",
+    "subName": "Artificial Intelligence",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME844",
+    "subName": "Automotive Engineering",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME843",
+    "subName": "Bio Mass Energy Systems",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME836",
+    "subName": "Computer Graphics",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME82",
+    "subName": "Control Engineering",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME845",
+    "subName": "Database Management System",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME848",
+    "subName": "Design for Manufacture and Assembly",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME847",
+    "subName": "Design of Experiments",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME838",
+    "subName": "Foundry Technology",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME832",
+    "subName": "Fracture Mechanics",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME842",
+    "subName": "Industrial Engineering and Ergonomics",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME841",
+    "subName": "Machine Tool Design",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME834",
+    "subName": "Nanotechnology",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME81",
+    "subName": "Operations Management",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME835",
+    "subName": "Organisational Behaviour and Professional Communication",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME833",
+    "subName": "Power Plant Engineering",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME837",
+    "subName": "Rapid Prototyping",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME831",
+    "subName": "Tribology",
+    "subSem": 8,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME71",
+    "subName": "Economics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME72",
+    "subName": "Mechanical Vibrations",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME73",
+    "subName": "Hydraulics & Pneumatics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME74",
+    "subName": "Operations Research",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME751",
+    "subName": "Mechanism Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME752",
+    "subName": "Theory of Plasticity",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME753",
+    "subName": "Engineering Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME754",
+    "subName": "Non Conventional Energy Sources",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME755",
+    "subName": "Gas Dynamics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME756",
+    "subName": "Management Information System",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME757",
+    "subName": "Automation in Manufacturing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME758",
+    "subName": "Total Quality Management",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME761",
+    "subName": "Experimental Stress Analysis",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME762",
+    "subName": "Tool Design",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME763",
+    "subName": "Cryogenics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME764",
+    "subName": "Smart Materials",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME765",
+    "subName": "Agile Manufacturing",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME766",
+    "subName": "Robotics",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME767",
+    "subName": "Finance Management",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME768",
+    "subName": "Micro & Smart System Technology",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME769",
+    "subName": "Product Life Cycle Management",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL77",
+    "subName": "DESIGN LABORATORY",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL78",
+    "subName": "CIM & AUTOMATION LAB",
+    "subSem": 7,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME61",
+    "subName": "Computer Integrated Manufacturing",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME62",
+    "subName": "Design of Machine Elements-II",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME63",
+    "subName": "Heat & Mass Transfer",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME64",
+    "subName": "Finite Element Methods",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME65",
+    "subName": "Mechatronics and Microprocessor",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME662",
+    "subName": "Mechanics of Composite Materials",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME663",
+    "subName": "Refrigeration & Air Conditioning",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME664",
+    "subName": "Design of Heat Exchangers",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME665",
+    "subName": "Non-Traditional Machining",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME666",
+    "subName": "Knowledge Management",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME667",
+    "subName": "Project Management",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME668",
+    "subName": "Statistical Quality Control",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME661",
+    "subName": "THEORY OF ELASTICITY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL67",
+    "subName": "HEAT & MASS TRANSFER LABORATORY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL68",
+    "subName": "COMPUTER AIDED MODELING AND ANALYSIS LABORATORY",
+    "subSem": 6,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10AL51",
+    "subName": "Management & Entrepreneurship",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME52",
+    "subName": "Design of Machine Elements-I",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME53",
+    "subName": "Energy Engineering",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME54",
+    "subName": "Dynamics of Machines",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME55",
+    "subName": "Manufacturing Process III",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME56",
+    "subName": "Turbo Machines",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL57",
+    "subName": "FLUID MECHANICS AND MACHINES LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL58",
+    "subName": "ENERGY CONVERSION ENGINEERING LABORATORY",
+    "subSem": 5,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "MATDIP401",
+    "subName": "Advanced Mathematics-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MAT41",
+    "subName": "Engineering Mathematics-IV",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME42A",
+    "subName": "Material Science & Metallurgy",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME42B",
+    "subName": "Mechanical Measurements & Metrology",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME43",
+    "subName": "Applied Thermodynamics",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME44",
+    "subName": "Kinematics of Machines",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME45",
+    "subName": "Manufacturing Process-II",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME46B",
+    "subName": "Fluid Mechanics",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME46A",
+    "subName": "Computer Aided Machine Drawing",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL47A",
+    "subName": "METALLOGRAPHY AND MATERIAL TESTING LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL47B",
+    "subName": "MECHANICAL MEASUREMENTS AND METROLOGY LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL48A",
+    "subName": "FOUNDRY AND FORGING LABORATORY",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL48B",
+    "subName": "MACHINE SHOP",
+    "subSem": 4,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "MATDIP301",
+    "subName": "Advanced Mathematics-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MAT31",
+    "subName": "Engineering Mathematics-III",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME32A",
+    "subName": "Material Science & Metallurgy",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME32B",
+    "subName": "Mechanical Measurements & Metrology",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME33",
+    "subName": "Basic Thermodynamics",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME34",
+    "subName": "Mechanics of Materials",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME35",
+    "subName": "Manufacturing Process-I",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME36B",
+    "subName": "Fluid Mechanics",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10ME36A",
+    "subName": "Computer aided machine drawing",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL37A",
+    "subName": "METALLOGRAPHY AND MATERIAL TESTING LABORATORY",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL37B",
+    "subName": "MECHANICAL MEASUREMENTS AND METROLOGY LABORATORY",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL38A",
+    "subName": "FOUNDRY AND FORGING LABORATORY",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  },
+  {
+    "subCode": "10MEL38B",
+    "subName": "MACHINE SHOP",
+    "subSem": 3,
+    "subScheme": 2010,
+    "departmentId": "580c948e1d476bb94875784f"
+  }
+]
