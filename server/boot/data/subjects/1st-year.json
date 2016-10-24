@@ -1,0 +1,226 @@
+[
+  {
+    "subCode": "15CIV18",
+    "subName": "Environmental Studies",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CHEL17",
+    "subName": "Engg. Chemistry Lab",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CPL16",
+    "subName": "Computer Programming Lab",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15ELN15",
+    "subName": "Basic Electronics",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CED14",
+    "subName": "Computer Aided Engineering Drawing",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15PCD13",
+    "subName": "Programming in C & Data Structures",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CHE12",
+    "subName": "Engineering Chemistry",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15MAT11",
+    "subName": "Engineering Maths-I",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CIV28",
+    "subName": "Environmental Studies",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CHEL27",
+    "subName": "Engg. Chemistry Lab",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CPL26",
+    "subName": "Computer Programming Lab",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15ELN25",
+    "subName": "Basic Electronics",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CED24",
+    "subName": "Computer Aided Engineering Drawing",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15PCD23",
+    "subName": "Programming in C & Data Structures",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CHE22",
+    "subName": "Engineering Chemistry",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15MAT21",
+    "subName": "Engineering Maths-II",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ae2d28f6b22f2c52984"
+  },
+  {
+    "subCode": "15CIV13",
+    "subName": "Elements of Civil Engg and Engineering Mechanics",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15EME14",
+    "subName": "Elements of Mechanical Engg",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15ELE15",
+    "subName": "Basic Electrical Engg",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15WSL16",
+    "subName": "Workshop Practice",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15PHYL17",
+    "subName": "Engg. Physics Lab",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15CPH18",
+    "subName": "Constitution of India, Professional Ethics and Human Rights (CPH)",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15PHY12",
+    "subName": "Engineering Physics",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15MAT11",
+    "subName": "Engineering Maths-I",
+    "subSem": 1,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15PHY22",
+    "subName": "Engineering Physics",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15MAT21",
+    "subName": "Engineering Maths-II",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15CIV23",
+    "subName": "Elements of Civil Engg. & Mechanics",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15EME24",
+    "subName": "Elements of Mechanical Engg.",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15ELE25",
+    "subName": "Basic Electrical Engg.",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15WSL26",
+    "subName": "Workshop Practice",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15PHYL27",
+    "subName": "Engg. Physics Lab",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  },
+  {
+    "subCode": "15CPH28",
+    "subName": "Constitution of India, Professional Ethics and Human Rights",
+    "subSem": 2,
+    "subScheme": 2015,
+    "departmentId": "580e2ad4d28f6b22f2c52983"
+  }
+]
