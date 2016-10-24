@@ -4,11 +4,16 @@
     "uiDirs": "server/api-explorer",
     "apiInfo": {
       "title": "Hadba WebApp",
-      "description": "REST APIs for hadba.",
-      "termsOfServiceUrl": "http://swagger.io/terms/",
-      "contact": "ptk609@@gmail.com",
-      "license": "Apache 2.0",
-      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      "description": "The REST APIs implementation for the `hadba` WebApp. This is the `v5` revision, a complete rewrite in **nodejs**. The reason for the rewrite is to make it platform agnostic and an get it **SaaS** ready. You can play with the APIs with this access token `adfjea23kj`, it will give only read access. Collaboration are welcomed.",
+      "contact": {
+        "name": "Pratheek Hegde",
+        "url": "http://github.com/pratheekhegde/hadba-API",
+        "email": "ptk609@gmail.com"
+      },
+      "license": {
+        "name": "MIT License",
+        "url": "https://github.com/pratheekhegde/hadba-API/blob/master/LICENSE.md"
+      }
     }
   }
 }
