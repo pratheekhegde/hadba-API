@@ -14,8 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "hadbaMongo",
+    "public": true
   },
   "AccessToken": {
     "dataSource": "db",
