@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="hadbaAPILanding" ng-controller="indexController as vm" ng-cloak>
+
+<head>
+  <title>hadba API Staging Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap core CSS -->
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <!-- Google Fonts Lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+  <!-- Semantic Bootstrap CSS (https://github.com/cblweb/semantic-ui-bootstrap) -->
+  <link href="css/smt-bootstrap.css" rel="stylesheet">
+
+  <!-- Site CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1><b>hadba</b> API /<small>v5</small></h1>
+        <hr>
+        <h3>REST APIs for the hadba WebApp.</h3>
+        <br>
+        <p><a href="/explorer" class="btn btn-primary">API Docs <i class="fa fa-file-text-o btn-icon-right"></i></a>
+          <a class="btn btn-success" ng-click="vm.getToken()">Get Access Token <i class="fa fa-ticket btn-icon-right" aria-hidden="true"></i></a>
+        </p>
+        <br>
+        <h4 class="text-center"><b>{{ vm.token }}</b></h4>
+        <hr>
+        <div class="text-center">
+          <a href="https://loopback.io/" target="_blank"><img src="assets/powered-by-LB-sm.png" alt="Powered by Loopback"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script>
+    var app = angular.module('hadbaAPILanding', []);
+    app.controller('indexController', function($scope, $http) {
+      var vm = this;
+      vm.getToken = function() {
+        $http({
+          method: "post",
+          url: "/api/v5/Users/login",
+          data: {
+            username: 'guest',
+            password: 'guest'
+          }
+        }).then(function(response) {
+          //Gotcha
+          vm.token = response.data.id;
+        }, function(response) {
+
+        });
+      }
+    });
+  </script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
