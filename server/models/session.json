@@ -1,35 +1,22 @@
 {
-  "name": "class",
-  "description": "A Class model representing a Class",
+  "name": "session",
+  "description": "A Session model representing a Feedback session of a Class",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "className": {
+    "sessionCode": {
       "type": "string",
       "required": true
+    },
+    "sessionStatus": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "timetables": {
-      "type": "hasOne",
-      "model": "timetable",
-      "foreignKey": ""
-    },
-    "mappings": {
-      "type": "hasMany",
-      "model": "mapping",
-      "foreignKey": ""
-    },
-    "sessions": {
-      "type": "hasMany",
-      "model": "session",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [
     {
       "accessType": "*",

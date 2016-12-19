@@ -60,5 +60,9 @@
   "mapping": {
     "dataSource": "hadbaMongo",
     "public": true
+  },
+  "session": {
+    "dataSource": "hadbaMongo",
+    "public": true
   }
 }
